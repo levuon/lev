@@ -1,0 +1,15 @@
+node_modules
+/dist
+/build
+/jsnative
+yarn-error.log
+npm-*.log
+/.sass-cache
+/.idea
+/typings
+/typings.json
+/jsconfig.json
+settings.json
+.vscode
+/app/public/styles
+.DS_Store
