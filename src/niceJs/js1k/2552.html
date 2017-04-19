@@ -1,0 +1,260 @@
+<!doctype html>
+<html>
+<!--
+(c) &copy; js1k.com, 2010 - 2016
+Note: submissions belong to their respectful owner, do not copy without their consent
+-->
+<head>
+    <title>JS1k 2016 - Demo 2552 - "Romanesco 2.0"</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Elias Schütt &amp; HellMood">
+    <meta name="description"
+          content="JS1k 2016 demo: &quot;Romanesco 2.0&quot; -- Move your mouse to change the shape and listen to mystical sounds.">
+    <meta name="pubdate" content="20160309">
+    <link rel="icon" type="image/png" href="http://js1k.com/favicon.png">
+    <link rel="canonical" href="http://js1k.com/2016-elemental/demo/2552">
+    <link rel="alternate" type="application/rss+xml" title="New demo feed" href="http://js1k.com/feed.xml">
+    <link rel="shortlink" href="http://js1k.com/2552">
+    <script>
+        setTimeout( function () {
+            var ga = document.createElement( 'script' );
+            ga.async = true;
+            ga.defer = true;
+            ga.src = 'http://www.google-analytics.com/ga.js';
+            ga.onload = function () {
+                try {
+                    _gat._getTracker( 'UA-19882353-1' )._trackPageview();
+                } catch ( e ) {
+                    window.console && console.log( "ga fail :'( " );
+                }
+                ;
+            };
+            var s = document.getElementsByTagName( 'script' )[ 0 ];
+            s.parentNode.insertBefore( ga, s );
+        }, 10 );
+    </script>
+    <style>
+        /* http://qfox.nl/notes/333 */
+        body, html, iframe {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            width: 100%;
+            height: 100%
+        }
+
+        iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            padding-top: 50px;
+            box-sizing: border-box
+        }
+
+        header {
+            position: relative;
+            z-index: 1;
+            height: 47px;
+            padding-top: 2px;
+            border-bottom: 1px solid #000;
+            box-shadow: 0 -10px 25px #ccc inset;
+            background-color: #eee
+        }
+
+        aside, div, h1, p {
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            text-align: center;
+            font-size: 16px;
+            font-weight: inherit;
+            line-height: 22px;
+            padding: 0;
+            margin: 0;
+            cursor: default
+        }
+
+        aside, h1 {
+            display: inline
+        }
+
+        a {
+            color: #000;
+            text-decoration: none;
+            border-bottom: 1px dashed #000
+        }
+
+        a:hover {
+            border-bottom: 1px solid red
+        }
+
+        a[href="0"] {
+            text-decoration: line-through;
+            pointer-events: none;
+            border-bottom: 0;
+            color: #ccc
+        }
+
+        .button {
+            float: left;
+            width: 40px;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+            padding: 0;
+            margin: 2px 0 0 10px;
+            border: 1px solid #888;
+            border-color: #ddd #888 #888 #ddd;
+            font-family: sans-serif;
+            font-size: 30px;
+            font-weight: 700;
+            cursor: pointer
+        }
+
+        .button:hover {
+            color: red;
+            border-bottom-color: #888
+        }
+
+        .r {
+            margin-right: 10px
+        }
+    </style>
+</head>
+<body>
+<header>
+    <div>
+        <h1>
+            <a href="http://js1k.com">JS1k</a>
+            <a href="http://js1k.com/2016-elemental">2016</a>
+            <strong>webgl</strong> demo
+            &mdash;
+            "Romanesco 2.0" by Elias Schütt &amp; HellMood
+        </h1>
+        <p>
+            <em>
+                Move your mouse to change the shape and listen to mystical sounds.
+            </em>
+        </p>
+        <aside>
+            &mdash;
+            1023 bytes
+            &mdash;
+            <!-- -->
+            <a href="http://js1k.com/2016-elemental/details/2552">demo details</a>
+            &mdash;
+            <a href="http://js1k.com/2016-elemental/demos">list of demos</a>
+            <!--
+            <b><a href="http://js1k.com/2016-elemental/demo/">
+              Update available here!
+            </a></b>
+            <!-- -->
+            &mdash;
+            <a href="http://js1k.com/2552" title="short link for your mobile devices" rel="nofollow">js1k.com/2552</a>
+        </aside>
+    </div>
+
+    <a href="2546" class="button p">&Larr;</a>
+    <a href="2555" class="button n">&Rarr;</a>
+</header>
+
+<script type="demo">
+for(_='atW floWVV Ucos(aT(PR){Q[iOlength(p)NN/3325LrocessKc.pageJonvec=3(;p.x*=..;i,1,0g.dot(p,b)gl_FragCoin(tior(fUi=0<f(goaR," a=(M/B*6.).),);;void maQ	}"	cS(A	ahR,A	so(A=ch(3563MWh.suniform=func(cQ2p-=m0.,)*b*2.;b=b.*=mW2(T-sasaT)fi in g)gO[0]+i[7]+O[13]]]=gO];P=cr(3"Wtribute 2 Pgl_Posi=4R2"precisi mediumpV; 2 B,M;UC;Ut=5e-364++Q3 p(2.*ord.xy-B)/B.yy,t-1.b.707,.707Ua=Cz20++Qxzyyzxx;zxz;xxy;p=p*1.5-.25;}t+=Lf(L.<5e-3||t>2.Qb1p5;lor=4(p/N*(t<2.?5./i:i/64.break;}}	lgR	urR	bf(A=34962,cu()	ba(A,new Int8Array([-3,-3]35044	eet(0	vto(b=0,2,5120	B"a.width8,a.height8	M"0mousemoveM"b=JX,JY)};(s1C"A+=.01	da(6,3requestAnimaFrame(s)})(f=new AudioCtext;a=f.creWeScriptPK8192a.cnect(f.destinaa.audiopKq=c.outputBuffer.getChannelDWa(0fi=8192;i--;)fqO]8,D=7;--D;)qO]+=50*A%D*i*MWh.flob/150)*D/326)*i/2606)*A)/D/4};';G=/[^ -IMPSX-}]/.exec(_);)with(_.split(G))_=join(shift());eval(_)
+
+</script>
+<script>
+    (function () {
+        var m = document,
+            b = m.getElementsByTagName( "header" )[ 0 ],
+            h = b.firstChild,
+            n = m.getElementsByClassName( "p" )[ 0 ],
+            f = m.getElementsByClassName( "n" )[ 0 ];
+        b.insertBefore( n, h );
+        b.insertBefore( f, h );
+        b.appendChild( m.getElementsByTagName( "p" )[ 0 ] )
+    })();
+    (function reload() {
+        function h( a ) {
+            g.body.removeChild( k );
+            d.parentElement.removeChild( d );
+            t = c = d = k = null;
+            reload( a )
+        }
+
+        var
+                B = T_CANVAS_SHIM = true,
+                N = T_WEBGL = true,
+                F = T_MAX_WIDTH = 0,
+                P = T_MAX_HEIGHT = 0,
+                U = T_LOCK_RATIO = false,
+                Q = T_CENTER_CANVAS = false,
+                V = T_RELOAD_ONORIENTATIONCHANGE = true,
+                g = document, t = g.getElementsByTagName( "header" )[ 0 ], k = g.createElement( "iframe" );
+        g.body.appendChild( k );
+        var a = k.contentWindow
+                , c = k.contentDocument;
+        c.open();
+        c.close();
+        c.write( '<!doctype html><html style="margin: 0; padding: 0; border: 0;' + (B ? " w" +
+                "idth: 100%; height: 100%;" : "") + '"><head><meta charset="utf-8"><body style="margin: 0; padding: 0; border: 0;' + (B ? " wi" +
+                "dth: 100%; height: 100%;" : "") + '">' + (B ? '<canvas style="display: block;' + (Q ? " margin: auto;" : "") + '"></canvas>' : "") + "" );
+        if( B ) {
+            var e = c.getElementsByTagName( "canvas" )[ 0 ],
+                q = e.style;
+                c.body.clientWidth;
+            var l = Math.max( Math.min( F || innerWidth, innerWidth ), 1 ),
+                r = Math.max( Math.min( P || innerHeight - 50, innerHeight - 50 ), 1 );
+            (l < F || r < P) && U && (l < F ? r = l / F * P : l = r / P * F);
+            q.width = (e.width = l) + "px";
+            q.height = (e.height = r) + "px"
+        }
+        V && (onorientationchange = h);
+        a.AudioContext = a.AudioContext || a.webkitAudioContext;
+        a.requestAnimationFrame = a.requestAnimationFrame || a.mozRequestAnimationFrame || a.webkitRequestAnimationFrame || a.msRequestAnimationFrame || function ( b ) {
+                    a.setTimeout( b, 1E3 / 30 )
+                };
+        B && (e.requestPointerLock = e.requestPointerLock || e.mozRequestPointerLock || e.webkitRequestPointerLock);
+        c.body.requestPointerLock = c.body.requestPointerLock || c.body.mozRequestPointerLock || c.body.webkitRequestPointerLock;
+        var nav = a.navigator;
+        nav.getUserMedia = nav.getUserMedia || N.webkitGetUserMedia || nav.mozGetUserMedia || nav.msGetUserMedia;
+        a.OscillatorNode && a.OscillatorNode.prototype && (a
+                .OscillatorNode.prototype.start = a.OscillatorNode.prototype.start || a.OscillatorNode.prototype.noteOn, a.OscillatorNode.prototype.stop = a.OscillatorNode.prototype.stop || a.OscillatorNode.prototype.noteOff);
+        B && (a.a = e);
+        a.b = c.body;
+        a.d = c;
+        B && (N || (
+                a.c = e.getContext( "2d" )), N && (a.g = function () {
+            a.onorientationchange = a.onresize = null;
+            try {
+                var b = { antialias: !0, stencil: !0 }, d = e
+                                .getContext( "webgl", b ) || e.getContext( "experimental-webgl", b );
+                a.__glExts = "OES_texture_float OES_texture_float_linear OE" +
+                        "S_standard_derivatives EXT_texture_filter_anisotropic MOZ_EXT_texture_filter_anisotropic WEBKIT_EXT_texture_filter_an" +
+                        "isotropic WEBGL_compressed_texture_s3tc MOZ_WEBGL_compressed_texture_s3tc WEBKIT_WEBGL_compressed_texture_s3tc".split(
+                                " " ).map( function ( a ) {
+                            return d.getExtension( a )
+                        } )
+            } catch ( f ) {
+                throw c.body.innerHTML = "WebGL not supported.", a.a = a.b = a.c = a.d =
+                        null, f;
+            }
+            return d
+        }()));
+        B = c.createElement( "script" );
+        B.textContent = g.querySelector( 'script[type="demo"]' ).textContent;
+        c.body.appendChild( B );
+        c.close();
+        k.contentWindow.focus();
+        B = g.getElementsByTagName( "div" )[ 0 ];
+        window.reload = h;
+        var d = g.createElement( "div" );
+        d.innerHTML = "&#8635;";
+        d.className = "button r";
+        d.title = "restart just the demo (local, without remot" +
+                "e fetch)";
+        d.onclick = h;
+        t.insertBefore( d, B )
+    })();
+</script>
+</body>
+</html>
