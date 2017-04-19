@@ -3,4 +3,4 @@
 
 
 ## artical
-  - [chome-dev-tool](./src/artical/chrome-dev-tool/pause-on-error.md)
+  - [chome-dev-tool](src/article/chrome-dev-tool/pause-on-error.md)
